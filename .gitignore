@@ -3,6 +3,7 @@ app/**/*.js
 app/**/*.map
 node_modules
 .vscode
+typings
 
 # Compiled source #
 ###################
