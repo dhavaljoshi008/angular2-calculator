@@ -1,0 +1,33 @@
+
+<div class="calculator">
+    <table>
+        <thead>
+            <th colspan="3" id="display" class="display" [innerHTML] = "display"></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button (click)="processInput(7)" id="7" class="keypad">7</button></td>
+                <td><button (click)="processInput(8)" id="8" class="keypad">8</button></td>
+                <td><button (click)="processInput(9)" id="9" class="keypad">9</button></td>
+            </tr>
+                <tr>
+                <td><button (click)="processInput(4)" id="4" class="keypad">4</button></td>
+                <td><button (click)="processInput(5)" id="5" class="keypad">5</button></td>
+                <td><button (click)="processInput(6)" id="6" class="keypad">6</button></td>
+            </tr>
+                <tr>
+                <td><button (click)="processInput(1)" id="1" class="keypad">1</button></td>
+                <td><button (click)="processInput(2)" id="2" class="keypad">2</button></td>
+                <td><button (click)="processInput(3)" id="3" class="keypad">3</button></td>
+            </tr>
+                <tr>
+                <td><button (click)="processInput('=')" id="=" class="keypad">=</button></td>
+                <td><button (click)="processInput(0)" id="0" class="keypad">0</button></td>
+                <td><button (click)="clear()" id="clear" class="keypad">C</button></td>
+            </tr>
+                <tr>
+                <td colspan="3"><button (click)="processInput('+')" id="+" class="keypad">+</button><button (click)="processInput('-')" id="-" class="keypad">-</button><button (click)="processInput('*')" id="*" class="keypad">x</button><button (click)="processInput('/')" id="/" class="keypad">/</button></td>
+            </tr>
+        </tbody>
+        </table>
+</div>

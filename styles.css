@@ -1,0 +1,73 @@
+.header {
+    
+    border: 3px solid black;
+}
+.title-holder {
+    border: 2px solid #1ad3fd;
+    background-color: #333;
+}
+
+.main-heading {
+    font-family: 'Bungee Outline', cursive;;
+    font-size: 35px;
+    font-weight: 600;
+    color: #1ad3fd;
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+table, th {
+     border: 1px solid #1ad3fd;
+}
+
+.display {
+    height: 50px;
+    color: #1ad3fd;
+    font-family: 'Bungee Outline', cursive;;
+    font-size: 55px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.keypad {
+    width: 55px;
+    height: 40px;
+    color: #1ad3fd;
+    font-family: 'Bungee Outline', cursive;;
+    font-size: 35px;
+    font-weight: 550;
+    border: none;
+    background-color: transparent;
+    text-align: center; 
+  
+ }
+
+ .keypad:active {
+    background-color: #333;     
+ }
+
+ .content {
+     text-align: center;
+ }
+
+ .calculator {
+     margin-top: 20px;
+     display: inline-block;
+ }
+
+ .footer {
+     font-family: "Courier New", Courier, monospace;
+     text-align: right;
+ }
+
+ .angular-image {
+     
+ }
+ .angular-line {
+     color: #fff;
+     text-align: right;
+     font-family:  monospace, "Courier New", Courier;
+ }
